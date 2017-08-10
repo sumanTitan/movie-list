@@ -29,9 +29,6 @@ class HomePage extends React.Component {
     this.setState({ movie: movie });
   }
 
-  movieRow(movie, index) {
-    return <div key={index}>{movie.title}</div>;
-  }
   render() {
     return (
       <div className="jumbotron">
