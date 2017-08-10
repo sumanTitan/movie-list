@@ -32,7 +32,7 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="jumbotron">
-        <h1>IMDB</h1>
+        <h1>Movie Library</h1>
         <p> Get your movies </p>
         <input type="search" onChange={this.onSearchChange} value={this.state.movie.searchText} />
         <input type="submit" value="Search" onClick={this.searchMovie} />
